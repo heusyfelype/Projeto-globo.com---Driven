@@ -1,0 +1,219 @@
+body {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------------------------------- */
+/* ------ Predefinições das fontes ------- */
+/* --------------------------------------- */
+h1 {
+  width: 630px;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  color: #c4160c;
+  margin-bottom: 29px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  margin-bottom: 15px;
+  color: #2f3134;
+}
+
+h3 {
+  margin: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #303134;
+  margin-bottom: 7px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #2f3134;
+}
+
+/*estilizando o cabeçalho*/
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.cabecalho img {
+  width: 171px;
+}
+
+/*estilizando o menu*/
+.menu {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px 0px;
+  color: #f5f6f7;
+}
+
+.caixa-de-texto {
+  width: 1260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.caixa-de-texto*/
+
+/*editando o fundo do documento abaixo do menu*/
+.fundo-maior {
+  display: flex;
+  justify-content: center;
+}
+
+.fundo-de-1250-pixels {
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+}
+
+/*começando a organizar tudo dentro dos 1250px*/
+
+/*estilizando o bloco da esquerda*/
+.esquerda {
+  width: 660px;
+  margin: 36px 0px 73px 0px;
+  border-style: solid;
+  border-right-width: 1px;
+  border-color: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+}
+/* primeiro terço (superior) da esquerda*/
+.box-esquerda-1 div {
+  margin-bottom: 0px;
+}
+
+/* Segundo terço (médio/meio) da esquerda*/
+.box-esquerda-2 {
+  display: flex;
+  margin: 18px 36px 0px 0px;
+  padding: 25px 0px 40px 0px;
+  border-style: solid;
+  border-width: 1px 0px;
+  border-color: #f5f6f7;
+}
+
+.box-esquerda-2 div {
+  width: 193px;
+  margin-right: 25px;
+}
+
+.box-esquerda-2 img {
+  width: 193px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.box-esquerda-2 h5 {
+  color: #c4170c;
+}
+
+/* Terceiro terço (inferior) da esquerda*/
+.box-esquerda-3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 36px 0px 0px;
+  padding: 0px 0px 36px 0px;
+}
+
+.box-esquerda-3 div {
+  width: 193px;
+}
+
+.box-esquerda-3 h5 {
+  color: #c4170c;
+}
+
+/*estilizando o bloco "do meio"*/
+.direita1 {
+  margin: 36px 0px 73px 0px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-right-width: 1px;
+  border-color: #f5f6f7;
+}
+
+/* Selecionando os elementos dentro do bloco do centro*/
+.direita1 div {
+  width: 240px;
+  margin: 0px 35px 50px 35px;
+}
+
+.direita1 img {
+  width: 240px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.direita1 h5 {
+  color: #16ae54;
+}
+
+/*estilizando o bloco da direita*/
+.direita2 {
+  margin-top: 36px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Selecionando os elementos dentro do bloco da direita*/
+.direita2 div {
+  width: 240px;
+  margin: 0px 0px 50px 0px;
+}
+
+.direita2 img {
+  width: 240px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.direita2 h5 {
+  color: #ec8006;
+}
+
+.direita2 p {
+  margin-bottom: 9px;
+}
